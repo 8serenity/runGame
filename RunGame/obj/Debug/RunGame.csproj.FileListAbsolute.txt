@@ -1,0 +1,14 @@
+c:\users\мухамедьян\documents\visual studio 2017\Projects\RunGame\RunGame\bin\Debug\RunGame.exe.config
+c:\users\мухамедьян\documents\visual studio 2017\Projects\RunGame\RunGame\bin\Debug\RunGame.exe
+c:\users\мухамедьян\documents\visual studio 2017\Projects\RunGame\RunGame\bin\Debug\RunGame.pdb
+c:\users\мухамедьян\documents\visual studio 2017\Projects\RunGame\RunGame\obj\Debug\RunGame.csprojResolveAssemblyReference.cache
+c:\users\мухамедьян\documents\visual studio 2017\Projects\RunGame\RunGame\obj\Debug\MainWindow.g.cs
+c:\users\мухамедьян\documents\visual studio 2017\Projects\RunGame\RunGame\obj\Debug\App.g.cs
+c:\users\мухамедьян\documents\visual studio 2017\Projects\RunGame\RunGame\obj\Debug\RunGame_MarkupCompile.cache
+c:\users\мухамедьян\documents\visual studio 2017\Projects\RunGame\RunGame\obj\Debug\RunGame_MarkupCompile.lref
+c:\users\мухамедьян\documents\visual studio 2017\Projects\RunGame\RunGame\obj\Debug\MainWindow.baml
+c:\users\мухамедьян\documents\visual studio 2017\Projects\RunGame\RunGame\obj\Debug\RunGame.g.resources
+c:\users\мухамедьян\documents\visual studio 2017\Projects\RunGame\RunGame\obj\Debug\RunGame.Properties.Resources.resources
+c:\users\мухамедьян\documents\visual studio 2017\Projects\RunGame\RunGame\obj\Debug\RunGame.csproj.GenerateResource.Cache
+c:\users\мухамедьян\documents\visual studio 2017\Projects\RunGame\RunGame\obj\Debug\RunGame.exe
+c:\users\мухамедьян\documents\visual studio 2017\Projects\RunGame\RunGame\obj\Debug\RunGame.pdb
