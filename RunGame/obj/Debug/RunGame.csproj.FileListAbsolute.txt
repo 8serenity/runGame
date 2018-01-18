@@ -12,3 +12,17 @@ c:\users\мухамедьян\documents\visual studio 2017\Projects\RunGame\RunG
 c:\users\мухамедьян\documents\visual studio 2017\Projects\RunGame\RunGame\obj\Debug\RunGame.csproj.GenerateResource.Cache
 c:\users\мухамедьян\documents\visual studio 2017\Projects\RunGame\RunGame\obj\Debug\RunGame.exe
 c:\users\мухамедьян\documents\visual studio 2017\Projects\RunGame\RunGame\obj\Debug\RunGame.pdb
+C:\Users\serenity\Documents\Visual Studio 2015\Projects\RunGame\RunGame\bin\Debug\RunGame.exe.config
+C:\Users\serenity\Documents\Visual Studio 2015\Projects\RunGame\RunGame\obj\Debug\RunGame.exe
+C:\Users\serenity\Documents\Visual Studio 2015\Projects\RunGame\RunGame\obj\Debug\RunGame.pdb
+C:\Users\serenity\Documents\Visual Studio 2015\Projects\RunGame\RunGame\bin\Debug\RunGame.exe
+C:\Users\serenity\Documents\Visual Studio 2015\Projects\RunGame\RunGame\bin\Debug\RunGame.pdb
+C:\Users\serenity\Documents\Visual Studio 2015\Projects\RunGame\RunGame\obj\Debug\RunGame.csprojResolveAssemblyReference.cache
+C:\Users\serenity\Documents\Visual Studio 2015\Projects\RunGame\RunGame\obj\Debug\MainWindow.g.cs
+C:\Users\serenity\Documents\Visual Studio 2015\Projects\RunGame\RunGame\obj\Debug\App.g.cs
+C:\Users\serenity\Documents\Visual Studio 2015\Projects\RunGame\RunGame\obj\Debug\RunGame_MarkupCompile.cache
+C:\Users\serenity\Documents\Visual Studio 2015\Projects\RunGame\RunGame\obj\Debug\RunGame_MarkupCompile.lref
+C:\Users\serenity\Documents\Visual Studio 2015\Projects\RunGame\RunGame\obj\Debug\MainWindow.baml
+C:\Users\serenity\Documents\Visual Studio 2015\Projects\RunGame\RunGame\obj\Debug\RunGame.g.resources
+C:\Users\serenity\Documents\Visual Studio 2015\Projects\RunGame\RunGame\obj\Debug\RunGame.Properties.Resources.resources
+C:\Users\serenity\Documents\Visual Studio 2015\Projects\RunGame\RunGame\obj\Debug\RunGame.csproj.GenerateResource.Cache

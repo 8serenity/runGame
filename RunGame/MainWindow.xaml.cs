@@ -32,41 +32,80 @@ namespace RunGame
         private void mouseMoved(object sender, MouseEventArgs e)
         {
             Random random = new Random();
-            int direction = random.Next(1, 8);
+            IsOkDirection(buttonGame, random);
+        }
+
+        private void pressedButton(object sender, RoutedEventArgs e)
+        {
+            buttonGame.Background = Brushes.Red;
+            buttonGame.Content = "YOU WIN";
+        }
+
+        private bool IsOkDirection(Button buttonGame, Random rnd)
+        {
+            int direction = rnd.Next(1,8);
             var currentMargin = buttonGame.Margin;
             switch (direction)
             {
                 case 1:
+                    if (buttonGame.Margin.Left + 55 >= 425)
+                    {
+                        return false;
+                    }
                     buttonGame.Margin = new System.Windows.Thickness { Left = currentMargin.Left + 55 };
                     break;
                 case 2:
-                    buttonGame.Margin = new System.Windows.Thickness { Left = currentMargin.Left + 55 };
-                    buttonGame.Margin = new System.Windows.Thickness { Top = currentMargin.Top + 55 };
+                    if (buttonGame.Margin.Left + 55 >= 425 || buttonGame.Margin.Top + 55 >= 290)
+                    {
+                        return false;
+                    }
+                    buttonGame.Margin = new System.Windows.Thickness { Left = currentMargin.Left + 55, Top = currentMargin.Top + 55 };
                     break;
                 case 3:
+                    if (buttonGame.Margin.Top + 55 >= 290)
+                    {
+                        return false;
+                    }
                     buttonGame.Margin = new System.Windows.Thickness { Top = currentMargin.Top + 55 };
                     break;
                 case 4:
-                    buttonGame.Margin = new System.Windows.Thickness { Right = currentMargin.Right + 55 };
-                    buttonGame.Margin = new System.Windows.Thickness { Top = currentMargin.Top + 55 };
+                    if (buttonGame.Margin.Right + 55 >= 425 || buttonGame.Margin.Top + 55 >= 290)
+                    {
+                        return false;
+                    }
+                    buttonGame.Margin = new System.Windows.Thickness { Right = currentMargin.Right + 55, Top = currentMargin.Top + 55 };
                     break;
                 case 5:
+                    if (buttonGame.Margin.Right + 55 >= 425)
+                    {
+                        return false;
+                    }
                     buttonGame.Margin = new System.Windows.Thickness { Right = currentMargin.Right + 55 };
                     break;
                 case 6:
-                    buttonGame.Margin = new System.Windows.Thickness { Right = currentMargin.Right + 55 };
-                    buttonGame.Margin = new System.Windows.Thickness { Bottom = currentMargin.Bottom + 55 };
+                    if (buttonGame.Margin.Right + 55 >= 425 || buttonGame.Margin.Bottom + 55 >= 290)
+                    {
+                        return false;
+                    }
+                    buttonGame.Margin = new System.Windows.Thickness { Right = currentMargin.Right + 55, Bottom = currentMargin.Bottom + 55 };
                     break;
                 case 7:
+                    if (buttonGame.Margin.Bottom + 55 >= 290)
+                    {
+                        return false;
+                    }
                     buttonGame.Margin = new System.Windows.Thickness { Bottom = currentMargin.Bottom + 55 };
                     break;
                 case 8:
-                    buttonGame.Margin = new System.Windows.Thickness { Left = currentMargin.Left + 55 };
-                    buttonGame.Margin = new System.Windows.Thickness { Bottom = currentMargin.Bottom + 55 };
+                    if (buttonGame.Margin.Left + 55 >= 425 || buttonGame.Margin.Bottom + 55 >= 290)
+                    {
+                        return false;
+                    }
+                    buttonGame.Margin = new System.Windows.Thickness { Left = currentMargin.Left + 55, Bottom = currentMargin.Bottom + 55 };
                     break;
             }
+            return true;
         }
 
-        
     }
 }
